@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "package.json",
+      "dist/**/*",
+      "**/node_modules/**/*",
+      "e2e/__cases__/**/*"
+    ]
+  },
+  "rules": {
+    "max-classes-per-file": false,
+    "curly": [true, "ignore-same-line"],
+    "member-access": [true, "no-public"],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "lowercase-last",
+        "named-imports-order": "lowercase-last"
+      }
+    ]
+  }
+}
