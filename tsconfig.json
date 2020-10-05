@@ -20,6 +20,7 @@
     "skipLibCheck": true,
     "sourceMap": false,
     "strict": true,
+    "strictNullChecks": false,
     "target": "es5",
     "types": ["jest", "node"],
     "baseUrl": "./",
